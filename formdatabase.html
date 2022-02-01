@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>This is HTML forms tutorial code with harry</h2>
+    <!-- enctype means encoding type related to utf 8 character -->
+    <form action="mailto:singhaniaabhishek17022002@gmail.com" method ="post" enctype ="text/plain">
+        <!-- label is inline elment -->
+        <label for="name"> Name</label>
+        <!-- division is block element -->
+        <div>
+            <!-- FOR name and id name should be same 
+            it help help for clickable to identify text -->
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for ="rollno">roll no:</label>
+        <div>
+            <input type="text" name="myRole" id ="rollno">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+
+        <br>
+        <div>
+            Date: <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            <!-- IT CAN ALSO TAKE e exponent vale  -->
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            <!-- IT IS FOR CLICKABLE -->
+            Are you eligible?: <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+            <!-- NAME ARE SAME SO ONLY ONE RADIO IS CLICKED -->
+        </div>
+
+        <br>
+        <div>
+            <!-- cols stand for column rows stand for row -->
+         Pledge holding <br><textarea name = "mypledge" clos =  "100" rows ="10"></textarea>
+        </div>
+        
+        <div>
+            <label for = "mycar">Car Name</label>
+            <select name ="Mycar" id ="mycar">
+                <!-- SELECTED FOR DEFAULT SELECTION IN PAGE 
+                option tag is use for selsecting one of them -->
+                <option value ="veyron" >Bugatti veyron</option>
+                <option value="centiodi" >bugatti centiodi</option>
+                <option value ="CHIRON" selected>Bugatti chiron</option>
+                <option value="FERRARI" >ferari f12</option>
+
+            </select>
+
+        </div>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+         
+    </form>
+</body>
+</html>
